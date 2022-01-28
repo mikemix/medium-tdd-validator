@@ -24,4 +24,4 @@ deps:
 	@docker exec $(CONTAINER) chown $(CURRENT_UID):$(CURRENT_GID) . -R
 
 tests:
-	@docker exec $(CONTAINER) vendor/bin/phpunit tests
+	@docker exec $(CONTAINER) vendor/bin/phpunit tests --testdox
