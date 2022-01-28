@@ -1,6 +1,8 @@
 # medium-tdd-validator
 Medium publication "Symfony Validator a TDD way"
 
+https://medium.com/@dotcom.software/designing-a-symfony-validator-the-tdd-way-8cded85e88d1
+
 ## Run with Docker
 
 1. `make start` – creates the container
